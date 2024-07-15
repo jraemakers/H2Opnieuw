@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url(./fonts.scss);
+
+nav {
+    background-color: #0090ff;
+}
+
+.anchor::after {
+    content: "";
+    width: 0;
+    height: 4px;
+    display: block;
+    background: black;
+    transition: 300ms;
+}
+
+.anchor:hover::after {
+    width: 100%;
+}
+
+.active .anchor::after {
+    width: 100%;
+}
+
+.button {
+    background-color: #4eadff !important;
+
+    &:hover {
+        background-color: #0090ff !important;
+    }
+}
+
+.scroll {
+    height: 66.666667vh;
+}
+
+.striped {
+    tr:nth-child(even) {
+        @apply bg-gray-100;
+    }
+}

@@ -1,0 +1,84 @@
+@font-face {
+    font-family: Ubuntu;
+    src: url(../fonts/Ubuntu-Regular.ttf) format("opentype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url(../fonts/Ubuntu-Light.ttf) format("opentype");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url(../fonts/Ubuntu-Medium.ttf) format("opentype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url(../fonts/Ubuntu-Bold.ttf) format("opentype");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+h1,
+.h1 {
+    font-size: 32px !important;
+    font-weight: 900 !important;
+    font-family: Ubuntu, sans-serif;
+}
+
+h2,
+.h2 {
+    font-size: 24px !important;
+    font-weight: 900 !important;
+    font-family: Ubuntu, sans-serif;
+}
+
+h3,
+.h3 {
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    font-family: Ubuntu, sans-serif;
+}
+
+h4,
+.h4 {
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    font-family: Ubuntu, sans-serif;
+}
+
+h5,
+.h5 {
+    font-size: 14px !important;
+    font-weight: 300 !important;
+    font-family: Ubuntu, sans-serif;
+}
+
+h6,
+.h6 {
+    font-size: 12px !important;
+    font-weight: 300 !important;
+    font-family: Ubuntu, sans-serif;
+}
+
+p,
+a,
+label,
+td,
+th,
+li {
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    font-family: Ubuntu, sans-serif;
+}
